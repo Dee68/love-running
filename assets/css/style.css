@@ -267,6 +267,12 @@ footer {
         float: left;
         clear: both;
     }
+    #times > div {
+        width: 100%;
+        height: 150px;
+        padding: 0;
+        clear: both;
+    }
     hr {
         display: none;
     }
