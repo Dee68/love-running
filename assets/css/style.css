@@ -243,4 +243,33 @@ footer {
     width: 100%;
 }
 
+/* media query */
+
+/* maximum width of 1200px */
+@media screen and (max-width:1200px) {
+    #club-ethos {
+        width: 65%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+    #welcome {
+        padding: 30px 0;
+        margin: 0;
+    }
+    #left-about,#right-about {
+        width: 100%;
+        padding: 0;
+        float: left;
+    }
+    #center-about {
+        width: 100%;
+        padding: 0;
+        float: left;
+        clear: both;
+    }
+    hr {
+        display: none;
+    }
+}
+
 
