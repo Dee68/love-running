@@ -122,8 +122,36 @@ h1,h2 {
 
 #center-about {
     width: 33%;
-    /* padding-top: 30px; */
+    /* padding-top: 30px */
     margin: 0 auto;
+}
+
+hr {
+    border-top: 1px solid #3a3a3a;
+    width: 100%;
+    margin: 5px 0;
+}
+
+/* left-about-heading */
+.left-about-heading {
+    width: 60%;
+    line-height: 20px;
+    margin-bottom: 50px;
+    float: right;
+    clear: both;
+}
+
+/* right-about-heading */
+.right-about-heading {
+    width: 60%;
+    line-height: 20px;
+    margin-bottom: 50px;
+    float: left;
+    clear: both;
+}
+
+.right-about-heading h2,p {
+    text-align: right;
 }
 
 
